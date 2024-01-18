@@ -10,7 +10,7 @@
 * @ValidationInfo : Bypass GateKeeper : false
 * @ValidationInfo : Compiler Version  : DEV_202009.0
 * @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
-PROGRAM test
+PROGRAM DASHBOARD
 *-----------------------------------------------------------------------------
 *
 *-----------------------------------------------------------------------------
