@@ -1,0 +1,16 @@
+I created this simple tool to assist the operator during the COB monitoring process.
+
+Instructions for use:
+
+1. Create a PGM.FILE with TYPE=M.
+2. Create a LOCAL.TABLE named BEFORE.COB and AFTER.COB, assign it to TSA.SERVICE, and fill it (Y) if it is a BEFORE.COB or AFTER.COB service. (The local names are changeable, and you can also modify them in the code.)
+Example:
+
+JBASE QUERY: This will select all BEFORE services.
+SELECT F.TSA.SERVICE WITH BEFORE.COB EQ 'Y'
+Example:
+
+JBASE QUERY: This will select all AFTER services.
+SELECT F.TSA.SERVICE WITH AFTER.COB EQ 'Y'
+
+#ghlabkh@gmail.com
